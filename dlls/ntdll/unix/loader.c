@@ -358,6 +358,7 @@ static void * const syscalls[] =
     NtWriteFileGather,
     NtWriteVirtualMemory,
     NtYieldExecution,
+    __wine_needs_override_large_address_aware,
     wine_nt_to_unix_file_name,
     wine_unix_to_nt_file_name,
 };
